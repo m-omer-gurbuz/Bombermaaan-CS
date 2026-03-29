@@ -2,6 +2,8 @@
 param(
     [string]$Configuration = "Release",
     [string]$Runtime = "win-x64",
+    [switch]$Trimmed,
+    [switch]$FrameworkDependent,
     [switch]$SkipInstaller
 )
 
@@ -57,10 +59,23 @@ $dotnetArgs = @(
     "publish", $projectPath,
     "-c", $Configuration,
     "-r", $Runtime,
-    "--self-contained", "true",
     "-p:PublishSingleFile=false",
     "-o", $publishDir
 )
+
+if ($FrameworkDependent) {
+    $dotnetArgs += @("--self-contained", "false")
+}
+else {
+    $dotnetArgs += @("--self-contained", "true")
+}
+
+if ($Trimmed) {
+    $dotnetArgs += @(
+        "-p:PublishTrimmed=true",
+        "-p:TrimMode=partial"
+    )
+}
 
 & dotnet @dotnetArgs
 if ($LASTEXITCODE -ne 0) {

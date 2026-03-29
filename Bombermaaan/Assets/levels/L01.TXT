@@ -25,16 +25,16 @@ Line.11 = *4 --------- 2*
 Line.12 = ***************
 
 [Settings]
-ItemsInWalls.Bombs = 7
-ItemsInWalls.Flames = 7
+ItemsInWalls.Bombs = 8
+ItemsInWalls.Flames = 8
 ItemsInWalls.Kicks = 0
-ItemsInWalls.Rollers = 7
+ItemsInWalls.Rollers = 11
 ItemsInWalls.Skulls = 1
 ItemsInWalls.Throws = 2
 ItemsInWalls.Punches = 2
 ItemsInWalls.Shields = 4
-ItemsInWalls.StrongWeak = 1
-ItemsInWalls.Remotes = 11
+ItemsInWalls.StrongWeak = 0
+ItemsInWalls.Remotes = 2
 BomberSkillsAtStart.FlameSize = 2
 BomberSkillsAtStart.MaxBombs = 1
 BomberSkillsAtStart.BombItems = 0

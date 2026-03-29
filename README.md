@@ -95,9 +95,12 @@ powershell -ExecutionPolicy Bypass -File .\installers\BuildInstaller.ps1
 
 ## ❤️ Credits
 
--   Original developers\
--   Community contributors\
--   2026 Ömer Gürbüz
+- 2000-2002, 2007 Thibaut Tollemer  
+- 2007, 2008 Bernd Arnold  
+- 2008 Jerome Bigot  
+- 2008 Markus Drescher  
+- 2016 Billy Araujo  
+- 2026 Ömer Gürbüz
 
 ------------------------------------------------------------------------
 

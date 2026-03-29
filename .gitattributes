@@ -1,0 +1,47 @@
+# ==============================
+#   .NET / WPF Project Defaults
+# ==============================
+
+# Normalize line endings: LF in repo, CRLF on Windows
+* text=auto eol=lf
+
+# Source and config files (UTF-8)
+*.cs       text diff=csharp
+*.xaml     text
+*.csproj   text
+*.sln      text
+*.config   text
+*.json     text
+*.xml      text
+*.yml      text
+*.yaml     text
+*.props    text
+*.targets  text
+*.md       text
+*.txt      text
+
+# Binary files (no diff)
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.ico      binary
+*.dll      binary
+*.exe      binary
+*.mp4      binary
+*.zip      binary
+*.woff     binary
+*.woff2    binary
+*.ttf      binary
+*.nupkg    binary
+*.snupkg   binary
+
+# Merge-friendly project/solution
+*.sln      merge=union
+*.csproj   merge=union
+
+# Keep CRLF for Windows scripts
+*.bat      text eol=crlf
+*.cmd      text eol=crlf
+
+# Ignore temp merge artifacts
+*.orig     merge=ours

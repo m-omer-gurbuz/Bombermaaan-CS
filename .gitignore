@@ -1,0 +1,117 @@
+# ---- Build outputs ----
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+out/
+dist/
+artifacts/
+
+# ---- User-specific files ----
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.rsuser
+*.sln.docstates
+.vs/
+.vscode/
+
+# ---- AI files ----
+.claude/
+
+# ---- Temporary & cache files ----
+*.tmp
+*.temp
+*.bak
+*.log
+*.tlog
+*.pdb
+*.cache
+*.pidb
+*.svclog
+.dotnet/
+
+# ---- Auto-generated files ----
+*.designer.cs
+*.g.cs
+*.g.i.cs
+*.AssemblyAttributes.cs
+*.generated.cs
+
+# ---- WPF / Blend ----
+*.iobj
+*.ipdb
+*.psess
+*.vspx
+*.ncb
+*.aps
+*.res
+*.sdf
+*.opendb
+*.ilk
+
+# ---- Visual Studio ----
+.vs/
+.vsconfig
+launchSettings.json
+TestResult*/
+TestResults/
+*.VisualState.xml
+*.coverage
+*.coveragexml
+
+# ---- Packages ----
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+*.vsix
+*.zip
+*.tar.gz
+
+# ---- Other IDE stuff ----
+.idea/
+*.iml
+*.sln.iml
+
+# ---- NuGet restore files ----
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ---- Publish / deploy ----
+publish/
+releases/
+installers/output/
+*.Publish.xml
+PublishProfiles/
+*.pubxml
+*.pubxml.user
+
+# ---- Azure & Docker ----
+*.azurePubxml
+.env
+docker-compose.override.yml
+docker-compose*.yaml
+Dockerfile.*
+
+# ---- OS junk ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---- Logs & temp ----
+*.log
+*.tlog
+*.etl
+*.nlog
+
+# ---- ReSharper / Rider ----
+_ReSharper*/
+*.DotSettings.user
+.idea/
+*.sln.iml

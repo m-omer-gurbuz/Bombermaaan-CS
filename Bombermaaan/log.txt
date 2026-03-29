@@ -1,0 +1,33 @@
+==> Log started on 2026-03-22 at 16:02:14.
+
+16:02:14  Game            => Bombermaaan 1.9.3.2039
+16:02:14  Game            => Built at 16:02:14 on 2026-03-22.
+16:02:14  Game            => Program name: 'C:\Users\Omer\source\repos\Bombermaaan-CS\Bombermaaan\bin\x64\Debug\net8.0-windows\Bombermaaan.exe'.
+16:02:14  Options         => Name of config file: '.\config.xml'.
+16:02:14  Options         => Configuration file could not be loaded.
+16:02:14  Options         => Loading level files 'C:\Users\Omer\source\repos\Bombermaaan-CS\Bombermaaan\bin\x64\Debug\net8.0-windows\Levels\*.TXT'.
+16:02:14  Options         => Level file L01.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L02.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L03.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L04.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L05.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L06.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L07.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L08.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L09.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L10.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L11.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L12.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L13.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L14.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L15.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L16.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L17.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L18.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L19.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L20.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L21.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L22.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L23.TXT was successfully loaded (version 2).
+16:02:14  Options         => Level file L24.TXT was successfully loaded (version 2).
+16:02:14  SDLVideo        => !!! Requested video mode 480x442 not found.
